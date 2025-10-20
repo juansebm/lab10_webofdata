@@ -1,0 +1,23 @@
+@base <http://users.dcc.uchile.cl/~ahogan/social.ttl> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<> a foaf:Document ;
+   dc:date "2019-10-08"^^xsd:date ;
+   dc:title "Social Vocabulary"@en ;
+   dc:creator <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> .
+
+social:hasSpiritAnimal a rdf:Property , owl:ObjectProperty , owl:FunctionalProperty ;
+   rdfs:label "has spirit animal"@en , "tiene animal espiritual"@es .
+
+social:likesMovie a rdf:Property , owl:ObjectProperty ;
+   rdfs:label "likes movie"@en , "le gusta la pelÃ­cula"@es .
+
+social:hasFavouritePlatonicSolid a rdf:Property , owl:ObjectProperty , owl:FunctionalProperty ;
+   rdfs:label "has favourite platonic solid"@en .
