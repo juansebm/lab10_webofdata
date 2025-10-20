@@ -25,7 +25,7 @@
    foaf:age 5 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
    foaf:img <https://media.licdn.com/dms/image/v2/C4D03AQGxScGlyfDjbQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516855817921?e=1762387200&v=beta&t=Gsd3CL4TZMWUOBiSSEZgh2YuZjyNxUMQ2Z8-Z73kq0Q> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
-   foaf:interest dbr:Web_analytics , dbr:Minecraft , dbr:Dancing_plague_of_1518 , dbr:Minions_(characters) ; 
+   foaf:interest dbr:Web_analytics , dbr:Minecraft , dbr:Dancing_plague_of_1518 , dbr:Minions_(characters) ;
    social:likesMovie dbr:12_Monkeys , dbr:Kung_Fury , dbr:Evil_Dead_II , dbr:Minions_(film) ;
    social:hasSpiritAnimal dbr:Phoenix_(mythology) ;
    social:hasFavouritePlatonicSolid dbr:Icosahedron ;
