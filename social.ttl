@@ -17,7 +17,7 @@ social:hasSpiritAnimal a rdf:Property , owl:ObjectProperty , owl:FunctionalPrope
    rdfs:label "has spirit animal"@en , "tiene animal espiritual"@es .
 
 social:likesMovie a rdf:Property , owl:ObjectProperty ;
-   rdfs:label "likes movie"@en , "le gusta la pelÃ­cula"@es .
+   rdfs:label "likes movie"@en , "le gusta la peli­cula"@es .
 
 social:hasFavouritePlatonicSolid a rdf:Property , owl:ObjectProperty , owl:FunctionalProperty ;
    rdfs:label "has favourite platonic solid"@en .
