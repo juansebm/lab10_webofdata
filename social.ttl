@@ -1,9 +1,9 @@
-@base <https://raw.githubusercontent.com/juansebm/lab10_webofdata/main/social.ttl> .
+@base <http://raw.githubusercontent.com/juansebm/lab10_webofdata/main/social.ttl> .
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix social: <https://raw.githubusercontent.com/juansebm/lab10_webofdata/main/social.ttl#> .
+@prefix social: <http://raw.githubusercontent.com/juansebm/lab10_webofdata/main/social.ttl#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
@@ -11,7 +11,7 @@
 <> a foaf:Document ;
    dc:date "2019-10-18"^^xsd:date ;
    dc:title "Social Vocabulary"@en ;
-   dc:creator <https://raw.githubusercontent.com/juansebm/lab10_webofdata/main/foaf.ttl#juanvale> .
+   dc:creator <http://raw.githubusercontent.com/juansebm/lab10_webofdata/main/foaf.ttl#juanvale> .
 
 social:hasSpiritAnimal a rdf:Property , owl:ObjectProperty , owl:FunctionalProperty ;
    rdfs:label "has spirit animal"@en , "tiene animal espiritual"@es .
