@@ -28,12 +28,12 @@
    foaf:interest dbr:Web_analytics ,
                 dbr:Minecraft ,
                 dbr:Dancing_plague_of_1518 ,
-                dbr:Minions_(characters) ;
+                <http://dbpedia.org/resource/Minions_(characters)> ;
    social:likesMovie dbr:12_Monkeys ,
                     dbr:Kung_Fury ,
                     dbr:Evil_Dead_II ,
-                    dbr:Minions_(film) ;
-   social:hasSpiritAnimal dbr:Phoenix_(mythology) ;
+                    <http://dbpedia.org/resource/Minions_(film)> ;
+   social:hasSpiritAnimal <http://dbpedia.org/resource/Phoenix_(mythology)>;
    social:hasFavouritePlatonicSolid dbr:Icosahedron ;
    social:hasFavouriteChair dbr:Repulsorlift ;
    foaf:myersBriggs "ESFJ" ;
